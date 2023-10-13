@@ -28,6 +28,23 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+
+      <div className="container">
+        <div className="column">
+            <div className="category">Категория 1</div>
+            <div className="category">Категория 2</div>
+            <div className="category">Категория 3</div>
+        </div>
+        <div className="column">
+            <div className="post-title">Заголовок записи 1</div>
+            <div className="post-title">Заголовок записи 2</div>
+            <div className="post-title">Заголовок записи 3</div>
+        </div>
+        <div className="column">
+            <div className="post-content">Содержание записи ла-ла-ла.</div>
+        </div>
+    </div>
     </>
   )
 }
