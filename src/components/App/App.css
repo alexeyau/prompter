@@ -1,8 +1,6 @@
 #root {
-  width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .logo {
@@ -39,13 +37,6 @@
 
 .read-the-docs {
   color: #888;
-}
-
-
-/* Стили для контейнера с тремя колонками */
-.container {
-  display: flex;
-  justify-content: space-between;
 }
 
 /* Стили для каждой из колонок */
