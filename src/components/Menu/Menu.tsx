@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 import './Menu.css'
 
 function Menu() {
@@ -7,13 +9,13 @@ function Menu() {
       <nav>
         <ul className="flex text-2xl">
           <li className="m-3">
-            Main
+            <NavLink to="/">Main</NavLink>
           </li>
           <li className="m-3">
-            Settings
+            <NavLink to="/settings">Settings</NavLink>
           </li>
           <li className="m-3">
-            Feedback
+            <NavLink to="/feedback">Feedback</NavLink>
           </li>
         </ul>
       </nav>

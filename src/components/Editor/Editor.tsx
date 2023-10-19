@@ -4,9 +4,7 @@ function Editor() {
 
   return (
     <div className="Editor">
-      <textarea>
-        La la la prompt
-      </textarea>
+      <textarea defaultValue="La la la prompt"></textarea>
       <button>Save</button>
     </div>
   )

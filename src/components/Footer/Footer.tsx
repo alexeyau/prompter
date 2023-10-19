@@ -3,7 +3,7 @@ import './Footer.css'
 function Footer() {
 
   return (
-    <div className="Footer mt-auto bg-slate-300">
+    <div className="Footer mt-auto">
       &copy; Prompter
     </div>
   )
