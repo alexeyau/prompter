@@ -1,11 +1,22 @@
+
+
 import './Editor.css'
 
-function Editor() {
+function Editor(props) {
+
+  const editPromt = (event) => {
+    console.log(event.target.value);
+    props.setNameOfEditCategory(event.target.value)
+  };
+
+  const saveChanges = () => {
+    props.saveChangesInPromt();
+  };
 
   return (
     <div className="Editor">
-      <textarea defaultValue="La la la prompt"></textarea>
-      <button>Save</button>
+      <input defaultValue={props.nameOfEditCategory} onChange={event => editPromt(event)}></input>
+      <button onClick={saveChanges}>Save</button>
     </div>
   )
 }
