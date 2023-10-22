@@ -1,5 +1,3 @@
-
-
 import './Editor.css'
 
 function Editor(props) {
@@ -15,7 +13,7 @@ function Editor(props) {
 
   return (
     <div className="Editor">
-      <input defaultValue={props.nameOfEditCategory} onChange={event => editPromt(event)}></input>
+      <textarea value={props.nameOfEditCategory} onChange={event => editPromt(event)}></textarea>
       <button onClick={saveChanges}>Save</button>
     </div>
   )

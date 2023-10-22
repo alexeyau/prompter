@@ -47,9 +47,18 @@
   margin: 5px;
 }
 
+.list-category {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Стили для заголовков категорий */
 .category {
   font-weight: bold;
+  width: 140px;
+  align-items: baseline;
+  text-align: left;
+  padding-top: 12px;
 }
 
 /* Стили для заголовков записей */
